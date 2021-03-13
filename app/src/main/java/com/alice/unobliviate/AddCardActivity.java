@@ -1,4 +1,4 @@
-package com.caren.unobliviate;
+package com.alice.unobliviate;
 
 import android.content.Intent;
 import android.os.Bundle;

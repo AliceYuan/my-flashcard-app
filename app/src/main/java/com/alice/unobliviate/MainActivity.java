@@ -1,4 +1,4 @@
-package com.caren.unobliviate;
+package com.alice.unobliviate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -61,21 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivityForResult(intent, ADD_CARD_REQUEST_CODE);
             }
         });
-        View.OnClickListener btnOnClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                List<Integer> choiceList = Arrays.asList(R.id.answer_choice_1, R.id.answer_choice_2, R.id.answer_choice_3);
-                for (int id : choiceList) {
-                    TextView choiceBtn = (TextView) findViewById(id);
-                    if (choiceBtn.getText() == answerSideView.getText()) choiceBtn.setBackgroundColor(getColor(R.color.correct));
-                    else choiceBtn.setBackgroundColor(getColor(R.color.wrong));
-                }
-            }
-        };
 
-        ((TextView) findViewById(R.id.answer_choice_1)).setOnClickListener(btnOnClickListener);
-        ((TextView) findViewById(R.id.answer_choice_2)).setOnClickListener(btnOnClickListener);
-        ((TextView) findViewById(R.id.answer_choice_3)).setOnClickListener(btnOnClickListener);
     }
 
     void resetBtnColors() {

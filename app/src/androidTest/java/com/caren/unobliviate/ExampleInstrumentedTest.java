@@ -1,4 +1,4 @@
-package com.caren.unobliviate;
+package com.alice.unobliviate;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.caren.unobliviate", appContext.getPackageName());
+        assertEquals("com.alice.unobliviate", appContext.getPackageName());
     }
 }

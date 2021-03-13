@@ -1,4 +1,4 @@
-package com.caren.unobliviate;
+package com.alice.unobliviate;
 
 import org.junit.Test;
 
