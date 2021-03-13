@@ -10,8 +10,9 @@
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_margin="10dp"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States?"
+        android:text="When was the first version of Android released?"
         android:textSize="40sp" />
 
     <TextView
@@ -19,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text="2009"
         android:textSize="40sp"
         android:visibility="invisible" />
 
