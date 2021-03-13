@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         answerSideView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                answerSideView.setVisibility(View.GONE);
                 questionSideView.setVisibility(View.VISIBLE);
+                answerSideView.setVisibility(View.GONE);
                 resetBtnColors();
             }
         });
